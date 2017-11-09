@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>work24左侧定宽,右侧自适应</title>
+		<style type="text/css">
+			#wrap {
+	            width: 100%;
+	            display: -webkit-box;
+	        }
+	        #wrap .left {
+	            width: 200px;
+	            height: 200px;
+	            background: red;
+	        }
+	        #wrap .right {
+	            height: 200px;
+	            background: green;
+	            -webkit-box-flex:1;
+	        }
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="left"></div>
+			<div class="right"></div>
+		</div>
+	</body>
+</html>

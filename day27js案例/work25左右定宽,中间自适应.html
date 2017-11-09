@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>work25左右定宽,中间自适应</title>
+		<style type="text/css">
+			#wrap {
+	            width: 100%;
+	            display: -webkit-box;
+	        }
+	        #wrap .left,#wrap .right {
+	            width: 200px;
+	            height: 200px;
+	            background: red;
+	        }
+	        #wrap .mid {
+	            height: 200px;
+	            background: green;
+	            -webkit-box-flex:1;
+	        }
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="left"></div>
+			<div class="mid"></div>
+			<div class="right"></div>
+		</div>
+	</body>
+</html>
